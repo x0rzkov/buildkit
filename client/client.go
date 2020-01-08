@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
-	controlapi "github.com/moby/buildkit/api/services/control"
-	"github.com/moby/buildkit/client/connhelper"
-	"github.com/moby/buildkit/util/appdefaults"
+	controlapi "github.com/x0rzkov/buildkit/api/services/control"
+	"github.com/x0rzkov/buildkit/client/connhelper"
+	"github.com/x0rzkov/buildkit/util/appdefaults"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"

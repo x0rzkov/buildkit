@@ -3,8 +3,8 @@ package cacheimport
 import (
 	"encoding/json"
 
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/util/contentutil"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/util/contentutil"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

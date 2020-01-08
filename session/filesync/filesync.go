@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/moby/buildkit/session"
+	"github.com/x0rzkov/buildkit/session"
 	"github.com/pkg/errors"
 	"github.com/tonistiigi/fsutil"
 	fstypes "github.com/tonistiigi/fsutil/types"

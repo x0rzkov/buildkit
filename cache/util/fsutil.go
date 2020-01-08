@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/snapshot"
 	"github.com/pkg/errors"
 	"github.com/tonistiigi/fsutil"
 	fstypes "github.com/tonistiigi/fsutil/types"

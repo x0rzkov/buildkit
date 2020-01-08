@@ -8,8 +8,8 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/content/local"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/testutil"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/testutil"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"

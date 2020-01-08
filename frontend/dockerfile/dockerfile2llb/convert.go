@@ -17,15 +17,15 @@ import (
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/pkg/signal"
 	"github.com/docker/go-connections/nat"
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/client/llb/imagemetaresolver"
-	"github.com/moby/buildkit/frontend/dockerfile/instructions"
-	"github.com/moby/buildkit/frontend/dockerfile/parser"
-	"github.com/moby/buildkit/frontend/dockerfile/shell"
-	gw "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/apicaps"
-	"github.com/moby/buildkit/util/system"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/client/llb/imagemetaresolver"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/instructions"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/parser"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/shell"
+	gw "github.com/x0rzkov/buildkit/frontend/gateway/client"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/apicaps"
+	"github.com/x0rzkov/buildkit/util/system"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
@@ -727,7 +727,7 @@ func dispatchCopyFileOp(d *dispatchState, c instructions.SourcesAndDest, sourceS
 			// https://docs.docker.com/engine/reference/builder/#add
 			//
 			// Note: mixing up remote archives and local archives in a single ADD instruction
-			// would result in undefined behavior: https://github.com/moby/buildkit/pull/387#discussion_r189494717
+			// would result in undefined behavior: https://github.com/x0rzkov/buildkit/pull/387#discussion_r189494717
 			u, err := url.Parse(src)
 			f := "__unnamed__"
 			if err == nil {
@@ -823,7 +823,7 @@ func dispatchCopy(d *dispatchState, c instructions.SourcesAndDest, sourceState l
 			// https://docs.docker.com/engine/reference/builder/#add
 			//
 			// Note: mixing up remote archives and local archives in a single ADD instruction
-			// would result in undefined behavior: https://github.com/moby/buildkit/pull/387#discussion_r189494717
+			// would result in undefined behavior: https://github.com/x0rzkov/buildkit/pull/387#discussion_r189494717
 			unpack = false
 			u, err := url.Parse(src)
 			f := "__unnamed__"

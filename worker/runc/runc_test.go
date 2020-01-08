@@ -16,15 +16,15 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	ctdsnapshot "github.com/containerd/containerd/snapshots"
 	"github.com/containerd/containerd/snapshots/overlay"
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/executor"
-	"github.com/moby/buildkit/executor/oci"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/snapshot"
-	"github.com/moby/buildkit/source"
-	"github.com/moby/buildkit/util/network/netproviders"
-	"github.com/moby/buildkit/worker/base"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/executor"
+	"github.com/x0rzkov/buildkit/executor/oci"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/source"
+	"github.com/x0rzkov/buildkit/util/network/netproviders"
+	"github.com/x0rzkov/buildkit/worker/base"
 	"github.com/stretchr/testify/require"
 )
 
@@ -155,7 +155,7 @@ func TestRuncWorker(t *testing.T) {
 	target, err = lm.Mount()
 	require.NoError(t, err)
 
-	//Verifies fix for issue https://github.com/moby/buildkit/issues/429
+	//Verifies fix for issue https://github.com/x0rzkov/buildkit/issues/429
 	dt, err := ioutil.ReadFile(filepath.Join(target, "run", "bar"))
 
 	require.NoError(t, err)

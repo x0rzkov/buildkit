@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/moby/buildkit/cache/remotecache"
-	v1 "github.com/moby/buildkit/cache/remotecache/v1"
-	"github.com/moby/buildkit/solver"
+	"github.com/x0rzkov/buildkit/cache/remotecache"
+	v1 "github.com/x0rzkov/buildkit/cache/remotecache/v1"
+	"github.com/x0rzkov/buildkit/solver"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

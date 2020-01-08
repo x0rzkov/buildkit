@@ -1,9 +1,9 @@
 package llbbuild
 
 import (
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/apicaps"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/apicaps"
 	digest "github.com/opencontainers/go-digest"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	controlapi "github.com/moby/buildkit/api/services/control"
-	apitypes "github.com/moby/buildkit/api/types"
-	"github.com/moby/buildkit/solver/pb"
+	controlapi "github.com/x0rzkov/buildkit/api/services/control"
+	apitypes "github.com/x0rzkov/buildkit/api/types"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

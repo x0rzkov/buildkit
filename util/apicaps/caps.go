@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	pb "github.com/moby/buildkit/util/apicaps/pb"
+	pb "github.com/x0rzkov/buildkit/util/apicaps/pb"
 	"github.com/pkg/errors"
 )
 

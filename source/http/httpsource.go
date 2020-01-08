@@ -17,12 +17,12 @@ import (
 
 	"github.com/docker/docker/pkg/idtools"
 	"github.com/docker/docker/pkg/locker"
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/cache/metadata"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/snapshot"
-	"github.com/moby/buildkit/source"
-	"github.com/moby/buildkit/util/tracing"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/cache/metadata"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/source"
+	"github.com/x0rzkov/buildkit/util/tracing"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
@@ -146,7 +146,7 @@ func (hs *httpSourceHandler) CacheKey(ctx context.Context, index int) (string, b
 
 	// If we request a single ETag in 'If-None-Match', some servers omit the
 	// unambiguous ETag in their response.
-	// See: https://github.com/moby/buildkit/issues/905
+	// See: https://github.com/x0rzkov/buildkit/issues/905
 	var onlyETag string
 
 	if len(sis) > 0 {

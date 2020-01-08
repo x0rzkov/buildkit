@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moby/buildkit/util/progress"
+	"github.com/x0rzkov/buildkit/util/progress"
 	"github.com/pkg/errors"
 )
 

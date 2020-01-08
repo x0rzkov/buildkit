@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/apicaps"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/apicaps"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	fstypes "github.com/tonistiigi/fsutil/types"

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	digest "github.com/opencontainers/go-digest"
 )
 

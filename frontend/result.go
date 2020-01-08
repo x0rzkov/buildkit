@@ -1,6 +1,6 @@
 package frontend
 
-import "github.com/moby/buildkit/solver"
+import "github.com/x0rzkov/buildkit/solver"
 
 type Result struct {
 	Ref      solver.CachedResult

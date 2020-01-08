@@ -3,7 +3,7 @@ package apicaps
 import (
 	"testing"
 
-	pb "github.com/moby/buildkit/util/apicaps/pb"
+	pb "github.com/x0rzkov/buildkit/util/apicaps/pb"
 	"github.com/stretchr/testify/assert"
 )
 

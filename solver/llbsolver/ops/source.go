@@ -5,12 +5,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/solver/llbsolver"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/source"
-	"github.com/moby/buildkit/worker"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/solver/llbsolver"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/source"
+	"github.com/x0rzkov/buildkit/worker"
 	digest "github.com/opencontainers/go-digest"
 )
 

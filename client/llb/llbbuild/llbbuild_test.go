@@ -3,8 +3,8 @@ package llbbuild
 import (
 	"testing"
 
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/stretchr/testify/require"
 )

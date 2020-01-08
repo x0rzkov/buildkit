@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/moby/buildkit/solver/llbsolver/ops/fileoptypes"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/solver/llbsolver/ops/fileoptypes"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/testutil"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"

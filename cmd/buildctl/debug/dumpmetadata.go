@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/moby/buildkit/util/appdefaults"
+	"github.com/x0rzkov/buildkit/util/appdefaults"
 	"github.com/urfave/cli"
 	bolt "go.etcd.io/bbolt"
 )

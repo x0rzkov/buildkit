@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/sshforward"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/sshforward"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"

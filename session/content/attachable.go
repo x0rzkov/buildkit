@@ -7,7 +7,7 @@ import (
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/errdefs"
 	"github.com/containerd/containerd/services/content/contentserver"
-	"github.com/moby/buildkit/session"
+	"github.com/x0rzkov/buildkit/session"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

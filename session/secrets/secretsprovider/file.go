@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/moby/buildkit/session/secrets"
+	"github.com/x0rzkov/buildkit/session/secrets"
 	"github.com/pkg/errors"
 )
 

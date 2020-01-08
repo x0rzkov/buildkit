@@ -6,7 +6,7 @@ import (
 
 	"github.com/containerd/containerd/remotes/docker"
 	"github.com/docker/distribution/reference"
-	"github.com/moby/buildkit/util/tracing"
+	"github.com/x0rzkov/buildkit/util/tracing"
 )
 
 type RegistryConf struct {

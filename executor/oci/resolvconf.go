@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/pkg/idtools"
 	"github.com/docker/libnetwork/resolvconf"
 	"github.com/docker/libnetwork/types"
-	"github.com/moby/buildkit/util/flightcontrol"
+	"github.com/x0rzkov/buildkit/util/flightcontrol"
 )
 
 var g flightcontrol.Group

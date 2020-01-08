@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moby/buildkit/frontend/dockerfile/command"
-	"github.com/moby/buildkit/frontend/dockerfile/parser"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/command"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/parser"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

@@ -7,7 +7,7 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	"github.com/containerd/containerd/snapshots"
 	"github.com/docker/docker/pkg/idtools"
-	"github.com/moby/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/snapshot"
 	"github.com/pkg/errors"
 )
 

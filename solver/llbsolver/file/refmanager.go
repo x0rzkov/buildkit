@@ -3,9 +3,9 @@ package file
 import (
 	"context"
 
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/snapshot"
-	"github.com/moby/buildkit/solver/llbsolver/ops/fileoptypes"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/solver/llbsolver/ops/fileoptypes"
 	"github.com/pkg/errors"
 )
 

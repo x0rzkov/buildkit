@@ -3,7 +3,7 @@ package build
 import (
 	"strings"
 
-	"github.com/moby/buildkit/session/sshforward/sshprovider"
+	"github.com/x0rzkov/buildkit/session/sshforward/sshprovider"
 )
 
 // ParseSSH parses --ssh

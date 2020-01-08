@@ -3,12 +3,12 @@ package client
 import (
 	"context"
 
-	"github.com/moby/buildkit/client/buildid"
-	gateway "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/frontend/gateway/grpcclient"
-	gatewayapi "github.com/moby/buildkit/frontend/gateway/pb"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/util/apicaps"
+	"github.com/x0rzkov/buildkit/client/buildid"
+	gateway "github.com/x0rzkov/buildkit/frontend/gateway/client"
+	"github.com/x0rzkov/buildkit/frontend/gateway/grpcclient"
+	gatewayapi "github.com/x0rzkov/buildkit/frontend/gateway/pb"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/util/apicaps"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/frontend/dockerfile/instructions"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/instructions"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	"github.com/pkg/errors"
 )
 

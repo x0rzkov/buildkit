@@ -27,17 +27,17 @@ import (
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/containerd/snapshots"
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/frontend/dockerfile/builder"
-	"github.com/moby/buildkit/frontend/dockerfile/dockerfile2llb"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/upload/uploadprovider"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/testutil"
-	"github.com/moby/buildkit/util/testutil/httpserver"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/builder"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/dockerfile2llb"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/upload/uploadprovider"
+	"github.com/x0rzkov/buildkit/util/contentutil"
+	"github.com/x0rzkov/buildkit/util/testutil"
+	"github.com/x0rzkov/buildkit/util/testutil/httpserver"
+	"github.com/x0rzkov/buildkit/util/testutil/integration"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
@@ -2140,7 +2140,7 @@ ADD %s /
 	require.NoError(t, err)
 	require.Equal(t, buf2.Bytes(), dt)
 
-	// https://github.com/moby/buildkit/issues/386
+	// https://github.com/x0rzkov/buildkit/issues/386
 	dockerfile = []byte(fmt.Sprintf(`
 FROM scratch
 ADD %s /newname.tar.gz

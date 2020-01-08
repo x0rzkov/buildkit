@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/upload"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/upload"
 	"github.com/pkg/errors"
 )
 

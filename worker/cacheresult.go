@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/solver"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/solver"
 	"github.com/pkg/errors"
 )
 

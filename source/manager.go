@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/session"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/session"
 	"github.com/pkg/errors"
 )
 

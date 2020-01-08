@@ -120,7 +120,7 @@ disabled_plugins = ["cri"]
 		"--containerd-worker-gc=false",
 		"--containerd-worker=true",
 		"--containerd-worker-addr", address,
-		"--containerd-worker-labels=org.mobyproject.buildkit.worker.sandbox=true", // Include use of --containerd-worker-labels to trigger https://github.com/moby/buildkit/pull/603
+		"--containerd-worker-labels=org.mobyproject.buildkit.worker.sandbox=true", // Include use of --containerd-worker-labels to trigger https://github.com/x0rzkov/buildkit/pull/603
 	}
 
 	buildkitdSock, stop, err := runBuildkitd(cfg, buildkitdArgs, cfg.Logs, 0, 0)

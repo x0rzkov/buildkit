@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/moby/buildkit/util/appcontext"
+	"github.com/x0rzkov/buildkit/util/appcontext"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"

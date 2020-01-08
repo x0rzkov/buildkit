@@ -3,8 +3,8 @@ package cache
 import (
 	"time"
 
-	"github.com/moby/buildkit/cache/metadata"
-	"github.com/moby/buildkit/client"
+	"github.com/x0rzkov/buildkit/cache/metadata"
+	"github.com/x0rzkov/buildkit/client"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 )

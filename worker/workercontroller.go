@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/filters"
-	"github.com/moby/buildkit/client"
+	"github.com/x0rzkov/buildkit/client"
 	"github.com/pkg/errors"
 )
 

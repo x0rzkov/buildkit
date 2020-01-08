@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	controlapi "github.com/moby/buildkit/api/services/control"
+	controlapi "github.com/x0rzkov/buildkit/api/services/control"
 	"github.com/pkg/errors"
 )
 

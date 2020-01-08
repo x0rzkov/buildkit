@@ -5,9 +5,9 @@ import (
 	"context"
 	"path"
 
-	"github.com/moby/buildkit/cache/contenthash"
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/worker"
+	"github.com/x0rzkov/buildkit/cache/contenthash"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/worker"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"

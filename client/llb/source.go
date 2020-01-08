@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	gw "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/apicaps"
+	gw "github.com/x0rzkov/buildkit/frontend/gateway/client"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/apicaps"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

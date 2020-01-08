@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/worker"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/worker"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

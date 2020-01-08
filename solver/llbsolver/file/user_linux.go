@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/moby/buildkit/snapshot"
-	"github.com/moby/buildkit/solver/llbsolver/ops/fileoptypes"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/solver/llbsolver/ops/fileoptypes"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	"github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
 	copy "github.com/tonistiigi/fsutil/copy"

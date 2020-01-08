@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moby/buildkit/solver/internal/pipe"
+	"github.com/x0rzkov/buildkit/solver/internal/pipe"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/strslice"
-	"github.com/moby/buildkit/util/system"
+	"github.com/x0rzkov/buildkit/util/system"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

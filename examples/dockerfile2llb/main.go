@@ -6,11 +6,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/client/llb/imagemetaresolver"
-	"github.com/moby/buildkit/frontend/dockerfile/dockerfile2llb"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/appcontext"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/client/llb/imagemetaresolver"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/dockerfile2llb"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/appcontext"
 )
 
 type buildOpt struct {

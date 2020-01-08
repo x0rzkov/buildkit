@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/buildkit/solver"
+	"github.com/x0rzkov/buildkit/solver"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/require"

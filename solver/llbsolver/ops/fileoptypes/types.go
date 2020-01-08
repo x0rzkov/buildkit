@@ -3,7 +3,7 @@ package fileoptypes
 import (
 	"context"
 
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/solver/pb"
 )
 
 type Ref interface {

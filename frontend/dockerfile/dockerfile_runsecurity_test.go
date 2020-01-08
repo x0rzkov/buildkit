@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/frontend/dockerfile/builder"
-	"github.com/moby/buildkit/util/entitlements"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/frontend/dockerfile/builder"
+	"github.com/x0rzkov/buildkit/util/entitlements"
+	"github.com/x0rzkov/buildkit/util/testutil/integration"
 	"github.com/stretchr/testify/require"
 )
 

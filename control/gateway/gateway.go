@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moby/buildkit/client/buildid"
-	"github.com/moby/buildkit/frontend/gateway"
-	gwapi "github.com/moby/buildkit/frontend/gateway/pb"
+	"github.com/x0rzkov/buildkit/client/buildid"
+	"github.com/x0rzkov/buildkit/frontend/gateway"
+	gwapi "github.com/x0rzkov/buildkit/frontend/gateway/pb"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

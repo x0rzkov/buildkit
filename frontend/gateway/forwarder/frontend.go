@@ -3,8 +3,8 @@ package forwarder
 import (
 	"context"
 
-	"github.com/moby/buildkit/frontend"
-	"github.com/moby/buildkit/frontend/gateway/client"
+	"github.com/x0rzkov/buildkit/frontend"
+	"github.com/x0rzkov/buildkit/frontend/gateway/client"
 )
 
 func NewGatewayForwarder(w frontend.WorkerInfos, f client.BuildFunc) frontend.Frontend {

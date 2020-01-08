@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/apicaps"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/apicaps"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )

@@ -1,6 +1,6 @@
 package moby_buildkit_v1_frontend
 
-import "github.com/moby/buildkit/util/apicaps"
+import "github.com/x0rzkov/buildkit/util/apicaps"
 
 var Caps apicaps.CapList
 

@@ -3,7 +3,7 @@ package grpchijack
 import (
 	"net"
 
-	controlapi "github.com/moby/buildkit/api/services/control"
+	controlapi "github.com/x0rzkov/buildkit/api/services/control"
 	"google.golang.org/grpc/metadata"
 )
 

@@ -11,7 +11,7 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
-	github_com_moby_buildkit_util_apicaps "github.com/moby/buildkit/util/apicaps"
+	github_com_moby_buildkit_util_apicaps "github.com/x0rzkov/buildkit/util/apicaps"
 	github_com_opencontainers_go_digest "github.com/opencontainers/go-digest"
 	io "io"
 	math "math"
@@ -1095,7 +1095,7 @@ type OpMetadata struct {
 	// index 3 reserved for WorkerConstraint in previous versions
 	// WorkerConstraint worker_constraint = 3;
 	ExportCache *ExportCache                                         `protobuf:"bytes,4,opt,name=export_cache,json=exportCache,proto3" json:"export_cache,omitempty"`
-	Caps        map[github_com_moby_buildkit_util_apicaps.CapID]bool `protobuf:"bytes,5,rep,name=caps,proto3,castkey=github.com/moby/buildkit/util/apicaps.CapID" json:"caps" protobuf_key:"bytes,1,opt,name=key,proto3" protobuf_val:"varint,2,opt,name=value,proto3"`
+	Caps        map[github_com_moby_buildkit_util_apicaps.CapID]bool `protobuf:"bytes,5,rep,name=caps,proto3,castkey=github.com/x0rzkov/buildkit/util/apicaps.CapID" json:"caps" protobuf_key:"bytes,1,opt,name=key,proto3" protobuf_val:"varint,2,opt,name=value,proto3"`
 }
 
 func (m *OpMetadata) Reset()         { *m = OpMetadata{} }

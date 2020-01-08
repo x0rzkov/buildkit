@@ -11,13 +11,13 @@ import (
 	"github.com/containerd/containerd/diff"
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/platforms"
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/cache/blobs"
-	"github.com/moby/buildkit/exporter"
-	"github.com/moby/buildkit/exporter/containerimage/exptypes"
-	"github.com/moby/buildkit/snapshot"
-	"github.com/moby/buildkit/util/progress"
-	"github.com/moby/buildkit/util/system"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/cache/blobs"
+	"github.com/x0rzkov/buildkit/exporter"
+	"github.com/x0rzkov/buildkit/exporter/containerimage/exptypes"
+	"github.com/x0rzkov/buildkit/snapshot"
+	"github.com/x0rzkov/buildkit/util/progress"
+	"github.com/x0rzkov/buildkit/util/system"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
@@ -241,7 +241,7 @@ func (ic *ImageWriter) commitDistributionManifest(ctx context.Context, ref cache
 		// from before lease based storage. If so, we should detect
 		// the media type from blob data.
 		//
-		// Discussion: https://github.com/moby/buildkit/pull/1277#discussion_r352795429
+		// Discussion: https://github.com/x0rzkov/buildkit/pull/1277#discussion_r352795429
 		if layerType == "" {
 			layerType, err = blobs.DetectLayerMediaType(ctx, cs, dp.Blobsum, oci)
 			if err != nil {

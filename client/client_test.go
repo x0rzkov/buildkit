@@ -27,18 +27,18 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	"github.com/containerd/containerd/snapshots"
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/moby/buildkit/client/llb"
-	gateway "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/secrets/secretsprovider"
-	"github.com/moby/buildkit/session/sshforward/sshprovider"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/entitlements"
-	"github.com/moby/buildkit/util/testutil"
-	"github.com/moby/buildkit/util/testutil/echoserver"
-	"github.com/moby/buildkit/util/testutil/httpserver"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/x0rzkov/buildkit/client/llb"
+	gateway "github.com/x0rzkov/buildkit/frontend/gateway/client"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/secrets/secretsprovider"
+	"github.com/x0rzkov/buildkit/session/sshforward/sshprovider"
+	"github.com/x0rzkov/buildkit/util/contentutil"
+	"github.com/x0rzkov/buildkit/util/entitlements"
+	"github.com/x0rzkov/buildkit/util/testutil"
+	"github.com/x0rzkov/buildkit/util/testutil/echoserver"
+	"github.com/x0rzkov/buildkit/util/testutil/httpserver"
+	"github.com/x0rzkov/buildkit/util/testutil/integration"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
@@ -238,7 +238,7 @@ func testHostnameLookup(t *testing.T, sb integration.Sandbox) {
 	require.NoError(t, err)
 }
 
-// moby/buildkit#614
+// x0rzkov/buildkit#614
 func testStdinClosed(t *testing.T, sb integration.Sandbox) {
 	c, err := New(context.TODO(), sb.Address())
 	require.NoError(t, err)
@@ -2725,7 +2725,7 @@ func testInvalidExporter(t *testing.T, sb integration.Sandbox) {
 	checkAllReleasable(t, c, sb, true)
 }
 
-// moby/buildkit#492
+// x0rzkov/buildkit#492
 func testParallelLocalBuilds(t *testing.T, sb integration.Sandbox) {
 	ctx, cancel := context.WithCancel(context.TODO())
 	defer cancel()

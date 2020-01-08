@@ -4,8 +4,8 @@ import (
 	"encoding/csv"
 	"strings"
 
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/secrets/secretsprovider"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/secrets/secretsprovider"
 	"github.com/pkg/errors"
 )
 

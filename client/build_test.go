@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/frontend/gateway/client"
-	gatewayapi "github.com/moby/buildkit/frontend/gateway/pb"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/frontend/gateway/client"
+	gatewayapi "github.com/x0rzkov/buildkit/frontend/gateway/pb"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/util/testutil/integration"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

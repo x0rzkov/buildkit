@@ -7,8 +7,8 @@ import (
 
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/configfile"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/auth"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/auth"
 	"google.golang.org/grpc"
 )
 

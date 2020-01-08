@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
-	"github.com/moby/buildkit/identity"
+	"github.com/x0rzkov/buildkit/identity"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"

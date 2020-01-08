@@ -3,9 +3,9 @@ package netproviders
 import (
 	"os"
 
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/network"
-	"github.com/moby/buildkit/util/network/cniprovider"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/network"
+	"github.com/x0rzkov/buildkit/util/network/cniprovider"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

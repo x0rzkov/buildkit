@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/util/progress"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/util/progress"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

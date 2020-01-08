@@ -12,7 +12,7 @@ import (
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/containerd/reference"
 	"github.com/containerd/containerd/remotes"
-	"github.com/moby/buildkit/util/leaseutil"
+	"github.com/x0rzkov/buildkit/util/leaseutil"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

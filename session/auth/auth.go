@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"github.com/moby/buildkit/session"
+	"github.com/x0rzkov/buildkit/session"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

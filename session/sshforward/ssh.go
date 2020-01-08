@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/moby/buildkit/session"
+	"github.com/x0rzkov/buildkit/session"
 	"github.com/pkg/errors"
 	context "golang.org/x/net/context"
 	"golang.org/x/sync/errgroup"

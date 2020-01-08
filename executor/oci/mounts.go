@@ -13,7 +13,7 @@ import (
 type MountOpts func([]specs.Mount) ([]specs.Mount, error)
 
 //GetMounts returns default required for buildkit
-// https://github.com/moby/buildkit/issues/429
+// https://github.com/x0rzkov/buildkit/issues/429
 func GetMounts(ctx context.Context, mountOpts ...MountOpts) ([]specs.Mount, error) {
 	mounts := []specs.Mount{
 		{

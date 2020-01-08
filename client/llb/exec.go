@@ -6,8 +6,8 @@ import (
 	"net"
 	"sort"
 
-	"github.com/moby/buildkit/solver/pb"
-	"github.com/moby/buildkit/util/system"
+	"github.com/x0rzkov/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/util/system"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

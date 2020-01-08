@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/buildkit/identity"
+	"github.com/x0rzkov/buildkit/identity"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -2393,7 +2393,7 @@ func TestSlowCacheAvoidAccess(t *testing.T) {
 // TestSlowCacheAvoidExecOnCache tests a regression where an input with
 // possible matches and a content based checksum should not try to checksum
 // before other inputs with no keys have at least made into a slow state.
-// moby/buildkit#648
+// x0rzkov/buildkit#648
 func TestSlowCacheAvoidLoadOnCache(t *testing.T) {
 	t.Parallel()
 	ctx := context.TODO()
@@ -3047,7 +3047,7 @@ func TestCacheExportingMergedKey(t *testing.T) {
 	require.Equal(t, len(expTarget.records), 5)
 }
 
-// moby/buildkit#434
+// x0rzkov/buildkit#434
 func TestMergedEdgesLookup(t *testing.T) {
 	t.Parallel()
 

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/content"
-	"github.com/moby/buildkit/cache/remotecache"
-	"github.com/moby/buildkit/session"
-	sessioncontent "github.com/moby/buildkit/session/content"
+	"github.com/x0rzkov/buildkit/cache/remotecache"
+	"github.com/x0rzkov/buildkit/session"
+	sessioncontent "github.com/x0rzkov/buildkit/session/content"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

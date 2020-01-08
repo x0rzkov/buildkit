@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/reference"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

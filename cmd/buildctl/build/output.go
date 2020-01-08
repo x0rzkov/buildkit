@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/containerd/console"
-	"github.com/moby/buildkit/client"
+	"github.com/x0rzkov/buildkit/client"
 	"github.com/pkg/errors"
 )
 

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/solver/testutil"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/solver/testutil"
 	"github.com/stretchr/testify/require"
 )
 

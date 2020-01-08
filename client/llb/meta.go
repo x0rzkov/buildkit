@@ -7,7 +7,7 @@ import (
 
 	"github.com/containerd/containerd/platforms"
 	"github.com/google/shlex"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

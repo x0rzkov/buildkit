@@ -5,9 +5,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/progress"
+	"github.com/x0rzkov/buildkit/client"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/util/progress"
 	"github.com/pkg/errors"
 )
 

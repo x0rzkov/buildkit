@@ -5,8 +5,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/session/upload"
+	"github.com/x0rzkov/buildkit/identity"
+	"github.com/x0rzkov/buildkit/session/upload"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	dockerfile "github.com/moby/buildkit/frontend/dockerfile/builder"
-	"github.com/moby/buildkit/frontend/gateway/grpcclient"
-	"github.com/moby/buildkit/util/appcontext"
+	dockerfile "github.com/x0rzkov/buildkit/frontend/dockerfile/builder"
+	"github.com/x0rzkov/buildkit/frontend/gateway/grpcclient"
+	"github.com/x0rzkov/buildkit/util/appcontext"
 	"github.com/sirupsen/logrus"
 )
 

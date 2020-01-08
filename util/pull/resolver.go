@@ -11,11 +11,11 @@ import (
 	"github.com/containerd/containerd/remotes"
 	"github.com/containerd/containerd/remotes/docker"
 	distreference "github.com/docker/distribution/reference"
-	"github.com/moby/buildkit/session"
-	"github.com/moby/buildkit/session/auth"
-	"github.com/moby/buildkit/source"
-	"github.com/moby/buildkit/util/resolver"
-	"github.com/moby/buildkit/util/tracing"
+	"github.com/x0rzkov/buildkit/session"
+	"github.com/x0rzkov/buildkit/session/auth"
+	"github.com/x0rzkov/buildkit/source"
+	"github.com/x0rzkov/buildkit/util/resolver"
+	"github.com/x0rzkov/buildkit/util/tracing"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

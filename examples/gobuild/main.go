@@ -5,7 +5,7 @@ package main
 import (
 	"os"
 
-	"github.com/moby/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/client/llb"
 	gobuild "github.com/tonistiigi/llb-gobuild"
 )
 
@@ -23,8 +23,8 @@ func run() error {
 
 	buildctl, err := gb.BuildExe(gobuild.BuildOpt{
 		Source:    src,
-		MountPath: "/go/src/github.com/moby/buildkit",
-		Pkg:       "github.com/moby/buildkit/cmd/buildctl",
+		MountPath: "/go/src/github.com/x0rzkov/buildkit",
+		Pkg:       "github.com/x0rzkov/buildkit/cmd/buildctl",
 		BuildTags: []string{},
 	})
 	if err != nil {
@@ -33,8 +33,8 @@ func run() error {
 
 	buildkitd, err := gb.BuildExe(gobuild.BuildOpt{
 		Source:    src,
-		MountPath: "/go/src/github.com/moby/buildkit",
-		Pkg:       "github.com/moby/buildkit/cmd/buildkitd",
+		MountPath: "/go/src/github.com/x0rzkov/buildkit",
+		Pkg:       "github.com/x0rzkov/buildkit/cmd/buildkitd",
 		BuildTags: []string{"no_containerd_worker"},
 	})
 	if err != nil {

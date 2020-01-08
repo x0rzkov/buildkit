@@ -4,7 +4,7 @@ import (
 	"encoding/csv"
 	"strings"
 
-	"github.com/moby/buildkit/client"
+	"github.com/x0rzkov/buildkit/client"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

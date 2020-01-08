@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/solver"
-	"github.com/moby/buildkit/solver/llbsolver"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/client/llb"
+	"github.com/x0rzkov/buildkit/solver"
+	"github.com/x0rzkov/buildkit/solver/llbsolver"
+	"github.com/x0rzkov/buildkit/solver/pb"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/require"
 )

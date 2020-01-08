@@ -3,7 +3,7 @@ package llb
 import (
 	"context"
 
-	gw "github.com/moby/buildkit/frontend/gateway/client"
+	gw "github.com/x0rzkov/buildkit/frontend/gateway/client"
 	digest "github.com/opencontainers/go-digest"
 )
 

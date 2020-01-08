@@ -5,8 +5,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/moby/buildkit/cache"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/x0rzkov/buildkit/cache"
+	"github.com/x0rzkov/buildkit/solver/pb"
 )
 
 type Meta struct {
