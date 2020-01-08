@@ -1,4 +1,4 @@
-module github.com/moby/buildkit
+module github.com/x0rzkov/buildkit
 
 go 1.11
 
