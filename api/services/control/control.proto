@@ -7,8 +7,8 @@ package moby.buildkit.v1;
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
-import "github.com/moby/buildkit/solver/pb/ops.proto";
-import "github.com/moby/buildkit/api/types/worker.proto";
+import "github.com/x0rzkov/buildkit/solver/pb/ops.proto";
+import "github.com/x0rzkov/buildkit/api/types/worker.proto";
 
 option (gogoproto.sizer_all) = true;
 option (gogoproto.marshaler_all) = true;
@@ -62,7 +62,7 @@ message SolveRequest {
 	string Frontend = 6;
 	map<string, string> FrontendAttrs = 7;
 	CacheOptions Cache = 8 [(gogoproto.nullable) = false];
-	repeated string Entitlements = 9 [(gogoproto.customtype) = "github.com/moby/buildkit/util/entitlements.Entitlement" ];
+	repeated string Entitlements = 9 [(gogoproto.customtype) = "github.com/x0rzkov/buildkit/util/entitlements.Entitlement" ];
 }
 
 message CacheOptions {
